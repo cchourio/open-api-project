@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 14px;
+  color: #555;
+}
+
+header a {
+  color: #0066cc;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  padding: 8px 20px;
+  font-size: 15px;
+  margin: 0 5px;
+  border: 1px solid #999;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background-color: #0066cc;
+  color: #fff;
+  border-color: #0066cc;
+}
+
+#location-bar {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+#city-select {
+  padding: 5px;
+  font-size: 15px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#content-area {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  min-height: 150px;
+}
+
+.weather-card {
+  font-size: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.stat-label {
+  color: #555;
+}
+
+.stat-value {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.stat-value.large {
+  font-size: 22px;
+}
+
+.stat-unit {
+  font-size: 13px;
+  color: #777;
+  margin-left: 2px;
+}
+
+.loading {
+  color: #555;
+  font-size: 15px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #777;
+}
+
+footer a {
+  color: #0066cc;
+}
